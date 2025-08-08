@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - SAF Food Shop</title>
+  <link rel="stylesheet" href="checkedout.css">
+</head>
+<body>
+  <div class="logo-header">
+    <img src="images/logo.jpg" alt="SAF Logo">
+    <h1>SAF Food Shop</h1>
+  </div>
+
+  <div class="checkout-container">
+    <h2>Order Summary</h2>
+
+    <div class="cart-items">
+      <p>Paneer Butter Masala — ₹180</p>
+      <p>Butter Naan × 2 — ₹80</p>
+      <p><strong>Total: ₹260</strong></p>
+    </div>
+
+    <form action="OrderServlet" method="post">
+      <h3>Delivery Address</h3>
+      <textarea name="address" placeholder="Enter full delivery address" required></textarea>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+</body>
+</html>

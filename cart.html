@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart - FoodApp</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 Your Cart</h1>
+  </header>
+
+  <main class="cart-container">
+    <div class="cart-items">
+      <div class="cart-item">
+        <span class="item-name">Paneer Butter Masala</span>
+        <span class="item-quantity">× 1</span>
+        <span class="item-price">₹180</span>
+      </div>
+      <div class="cart-item">
+        <span class="item-name">Butter Naan</span>
+        <span class="item-quantity">× 2</span>
+        <span class="item-price">₹80</span>
+      </div>
+    </div>
+
+    <div class="cart-total">
+      <strong>Total:</strong> ₹260
+    </div>
+
+    <div class="checkout-btn">
+      <form action="OrderServlet" method="post">
+        <button type="submit">Place Order</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 FoodApp | All rights reserved</p>
+  </footer>
+</body>
+</html>

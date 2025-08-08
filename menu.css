@@ -1,0 +1,90 @@
+/* Base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #ccc;
+}
+
+/* Header */
+header {
+  background-color: #111;
+  color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grid layout */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Card styling */
+.menu-card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.menu-card:hover {
+  transform: scale(1.03);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-card h3 {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.menu-card p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #ccc;
+}
+
+.price {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.menu-card button {
+  background-color: #ff5a5f;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-card button:hover {
+  background-color: #e04848;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #888;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 30px;
+}

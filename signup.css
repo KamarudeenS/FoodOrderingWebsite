@@ -1,0 +1,91 @@
+body {
+  background: url('images/pexels-valeriya-842571.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #ccc;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logo-header {
+  position: absolute;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 12px;
+}
+
+.logo-header img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.logo-header h1 {
+  color: #fff;
+  font-family: 'Copperplate Gothic', 'Segoe UI', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+
+.signup-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #222;
+  color: #fff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e04848;
+}
+
+.signin-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signin-link a {
+  color: #ff5a5f;
+  text-decoration: none;
+}

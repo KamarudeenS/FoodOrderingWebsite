@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In - FoodApp</title>
+  <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+  <div class="logo-header">
+    <img src="images/logo.jpg" alt="SAF Logo">
+    <h1>SAF Food Shop</h1>
+  </div>
+  <div class="login-container">
+    <h1>🔐 Sign In</h1>
+    <form action="LoginServlet" method="post">
+      <input type="text" name="email" placeholder="Email or Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+      <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - FoodApp</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <header>
+    <a href="CartServlet"><button>🛒 View Cart</button></a>
+    <h1>📋 Menu - Spice Villa</h1>
+  </header>
+  <main class="menu-grid">
+
+    <div class="menu-card">
+      <img src="images/menu1.jpg" alt="Paneer Butter Masala">
+      <h3>Paneer Butter Masala</h3>
+      <p>Rich, creamy tomato-based paneer curry</p>
+      <p class="price">₹180</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="1">
+        <input type="hidden" name="name" value="Paneer Butter Masala">
+        <input type="hidden" name="price" value="180">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/menu2.jpg" alt="Chicken Biryani">
+      <h3>Chicken Biryani</h3>
+      <p>Fragrant basmati rice with marinated chicken</p>
+      <p class="price">₹220</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="2">
+        <input type="hidden" name="name" value="Chicken Biryani">
+        <input type="hidden" name="price" value="220">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/menu1.jpg" alt="Butter Naan">
+      <h3>Butter Naan</h3>
+      <p>Soft leavened bread brushed with butter</p>
+      <p class="price">₹40</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="3">
+        <input type="hidden" name="name" value="Butter Naan">
+        <input type="hidden" name="price" value="40">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/menu4.jpg" alt="Veg Hakka Noodles">
+      <h3>Veg Hakka Noodles</h3>
+      <p>Stir-fried noodles with veggies & sauces</p>
+      <p class="price">₹150</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="4">
+        <input type="hidden" name="name" value="Veg Hakka Noodles">
+        <input type="hidden" name="price" value="150">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/menu5.jpg" alt="Samosa">
+      <h3>Samosa</h3>
+      <p>Crispy triangular pastry with potato filling</p>
+      <p class="price">₹20</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="5">
+        <input type="hidden" name="name" value="Samosa">
+        <input type="hidden" name="price" value="20">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/menu6.jpg" alt="Tandoori Roti">
+      <h3>Tandoori Roti</h3>
+      <p>Whole wheat roti cooked in clay oven</p>
+      <p class="price">₹30</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="6">
+        <input type="hidden" name="name" value="Tandoori Roti">
+        <input type="hidden" name="price" value="30">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/menu7.jpg" alt="Masala Dosa">
+      <h3>Masala Dosa</h3>
+      <p>South Indian dosa with potato masala</p>
+      <p class="price">₹90</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="7">
+        <input type="hidden" name="name" value="Masala Dosa">
+        <input type="hidden" name="price" value="90">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/menu8.jpg" alt="Cheese Pizza">
+      <h3>Cheese Pizza</h3>
+      <p>Classic cheesy pizza with crispy crust</p>
+      <p class="price">₹200</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="8">
+        <input type="hidden" name="name" value="Cheese Pizza">
+        <input type="hidden" name="price" value="200">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/menu9.jpg" alt="Vanilla Ice Cream">
+      <h3>Vanilla Ice Cream</h3>
+      <p>Cool and creamy vanilla scoop</p>
+      <p class="price">₹60</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="9">
+        <input type="hidden" name="name" value="Vanilla Ice Cream">
+        <input type="hidden" name="price" value="60">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/menu10.jpg" alt="Gulab Jamun">
+      <h3>Gulab Jamun</h3>
+      <p>Milk-solid balls soaked in rose syrup</p>
+      <p class="price">₹50</p>
+      <form action="AddToCartServlet" method="post">
+        <input type="hidden" name="menuId" value="10">
+        <input type="hidden" name="name" value="Gulab Jamun">
+        <input type="hidden" name="price" value="50">
+        <input type="hidden" name="restaurantId" value="1">
+        <button type="submit">Add to Cart</button>
+      </form>
+    </div>
+
+  </main>
+  <footer>
+    <p>© 2025 FoodApp | All rights reserved</p>
+  </footer>
+</body>
+</html>
